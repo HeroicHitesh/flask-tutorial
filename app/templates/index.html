@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% if title %}
         <title>{{ title }} Page - Flask Tutorial</title>
+        {% else %}
+        <title>Welcome to Flask Tutorial</title>
+        {% endif %}
     </head>
     <body>
         <h1>Hello, {{ user.username }}!</h1>
