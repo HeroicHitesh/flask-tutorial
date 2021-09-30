@@ -1,1 +1,2 @@
 FLASK_APP=flaskTutorial.py
+FLASK_ENV=development
